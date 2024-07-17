@@ -23,7 +23,7 @@ The circuit diagram is shown below.
 We are using one LED matrix; this can be adjusted based on your dimensions. Two or more LEDs can be connected and programmed together for a bigger display. 
 
 ## Programming the Matrix by Arduino MEGA 
-To control the LED matrix and make it mimic the mouth’s movement, the arduino is programmed using the code below. 
+To control the LED matrix and make it mimic the mouth’s movement, the controller is programmed using the code below. 
 
 ```
 // defining the pin connections
