@@ -6,7 +6,9 @@ In this project, a robot’s mouth using an LED matrix is programmed using Ardui
 # Components
 -	MAX7219 LED matrix
 -	Jumper wires 
--	Arduini MEGA 
+-	Arduini MEGA
+
+LED matrix is a system of interconnected leds. The leds will light up as programmed by the driver, which in this project is the MAX7219 driver. It is a simple board of 5 pins/connectors that allows the conncetion of several modules in series. "It contains a BCD decoder, a multiplexer, and an 8×8 static RAM that stores each digit for the LED matrix display. Driver control is possible via SPI communication. One of the advantages of this driver is that MAX7219 can activate each column and row for a very short time. This allows fast switching through the columns and rows that the human eye perceives as a continuous light."
 
 # Steps 
 ## 1. Building the Circuit (connections) 
@@ -172,9 +174,8 @@ void show() {
     digitalWrite(CS, HIGH);
   }
 }
-
-
 ```
+The mouth patterns were done using an online led matrix font generator. (*https://www.riyas.org/2013/12/online-led-matrix-font-generator-with.html#google_vignette*) 
 
 ## Results 
 #### 1. Smiley mouth at the beginning: 
@@ -192,5 +193,5 @@ void show() {
 ![image](https://github.com/user-attachments/assets/30634f8d-f327-47be-9b0d-1583f870bf2a)
 
   
-
+The mouth will start with a smile for 2 seconds, then will alternate between open and closed as in talking movement. 
 
