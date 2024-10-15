@@ -6,7 +6,7 @@ In this project, a robot’s mouth using an LED matrix is programmed using Ardui
 # Components
 -	MAX7219 LED matrix
 -	Jumper wires 
--	Arduini MEGA
+-	Arduino MEGA
 
 LED matrix is a system of interconnected leds. The leds will light up as programmed by the driver, which in this project is the MAX7219 driver. It is a simple board of 5 pins/connectors that allows the conncetion of several modules in series. "It contains a BCD decoder, a multiplexer, and an 8×8 static RAM that stores each digit for the LED matrix display. Driver control is possible via SPI communication. One of the advantages of this driver is that MAX7219 can activate each column and row for a very short time. This allows fast switching through the columns and rows that the human eye perceives as a continuous light."
 
